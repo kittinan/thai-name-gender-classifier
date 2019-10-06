@@ -165,7 +165,7 @@ class App extends React.Component {
     const { text_result, logs } = this.state;
 
     const log_list = logs.map((v, i) => (
-      <div>
+      <div key={i}>
         {v.name}: {v.gender}
       </div>
     ));
