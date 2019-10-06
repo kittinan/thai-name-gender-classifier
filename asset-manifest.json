@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/thai-name-gender-classifier/static/css/main.a6cc22b3.chunk.css",
+    "main.js": "/thai-name-gender-classifier/static/js/main.f0b84c31.chunk.js",
+    "main.js.map": "/thai-name-gender-classifier/static/js/main.f0b84c31.chunk.js.map",
+    "runtime-main.js": "/thai-name-gender-classifier/static/js/runtime-main.09f1fc1e.js",
+    "runtime-main.js.map": "/thai-name-gender-classifier/static/js/runtime-main.09f1fc1e.js.map",
+    "static/js/2.882ce42c.chunk.js": "/thai-name-gender-classifier/static/js/2.882ce42c.chunk.js",
+    "static/js/2.882ce42c.chunk.js.map": "/thai-name-gender-classifier/static/js/2.882ce42c.chunk.js.map",
+    "index.html": "/thai-name-gender-classifier/index.html",
+    "precache-manifest.934ed5f1259b3631d73d53ce36565a18.js": "/thai-name-gender-classifier/precache-manifest.934ed5f1259b3631d73d53ce36565a18.js",
+    "service-worker.js": "/thai-name-gender-classifier/service-worker.js",
+    "static/css/main.a6cc22b3.chunk.css.map": "/thai-name-gender-classifier/static/css/main.a6cc22b3.chunk.css.map",
+    "static/media/logo.svg": "/thai-name-gender-classifier/static/media/logo.25bf045c.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.09f1fc1e.js",
+    "static/js/2.882ce42c.chunk.js",
+    "static/css/main.a6cc22b3.chunk.css",
+    "static/js/main.f0b84c31.chunk.js"
+  ]
+}
