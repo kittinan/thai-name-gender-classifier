@@ -118,7 +118,9 @@ class App extends React.Component {
   }
 
   async componentDidMount() {
-    this.model = await tf.loadLayersModel("./tfjs_model/model.json");
+    this.model = await tf.loadLayersModel("./tfjs_model/model.json", {
+      strict: true
+    });
   }
 
   async handleChange(event) {
@@ -175,7 +177,7 @@ class App extends React.Component {
         <header className="App-header">
           <Card id="card-input">
             <CardContent>
-              <h3>ทำนายเพศจากชื่อ</h3>
+              <h3>ทำนายเพศจากชื่อจริง</h3>
 
               <TextField
                 id="text-field-name"
