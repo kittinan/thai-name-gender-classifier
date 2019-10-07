@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d96c4b0d489db0c2554a3b5a06baeb5f",
+    "revision": "c2b372c8f96954ec2e9af29ffd2f5f40",
     "url": "/thai-name-gender-classifier/index.html"
   },
   {
-    "revision": "ab4983641217a77c838f",
+    "revision": "0bd993dba09f4a0cdf89",
     "url": "/thai-name-gender-classifier/static/css/main.a6cc22b3.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/thai-name-gender-classifier/static/js/2.882ce42c.chunk.js"
   },
   {
-    "revision": "ab4983641217a77c838f",
-    "url": "/thai-name-gender-classifier/static/js/main.f0b84c31.chunk.js"
+    "revision": "0bd993dba09f4a0cdf89",
+    "url": "/thai-name-gender-classifier/static/js/main.d20cfb24.chunk.js"
   },
   {
     "revision": "da7f28f7f6b439d50078",

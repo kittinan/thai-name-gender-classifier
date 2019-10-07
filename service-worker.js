@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/thai-name-gender-classifier/precache-manifest.934ed5f1259b3631d73d53ce36565a18.js"
+  "/thai-name-gender-classifier/precache-manifest.65862bdf1c736fc22fb19b719f071edf.js"
 );
 
 self.addEventListener('message', (event) => {

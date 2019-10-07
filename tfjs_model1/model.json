@@ -7,7 +7,7 @@
       "config": [{
         "class_name": "Embedding",
         "config": {
-          "name": "embedding_5",
+          "name": "embedding_26",
           "trainable": true,
           "batch_input_shape": [null, 15],
           "dtype": "float32",
@@ -30,7 +30,7 @@
       }, {
         "class_name": "Dropout",
         "config": {
-          "name": "dropout_9",
+          "name": "dropout_71",
           "trainable": true,
           "rate": 0.3,
           "noise_shape": null,
@@ -39,7 +39,7 @@
       }, {
         "class_name": "LSTM",
         "config": {
-          "name": "lstm_9",
+          "name": "lstm_11",
           "trainable": true,
           "return_sequences": true,
           "return_state": false,
@@ -85,7 +85,7 @@
       }, {
         "class_name": "Dropout",
         "config": {
-          "name": "dropout_10",
+          "name": "dropout_72",
           "trainable": true,
           "rate": 0.3,
           "noise_shape": null,
@@ -94,7 +94,7 @@
       }, {
         "class_name": "LSTM",
         "config": {
-          "name": "lstm_10",
+          "name": "lstm_12",
           "trainable": true,
           "return_sequences": false,
           "return_state": false,
@@ -140,7 +140,7 @@
       }, {
         "class_name": "Dense",
         "config": {
-          "name": "dense_1",
+          "name": "dense_69",
           "trainable": true,
           "units": 1,
           "activation": "sigmoid",
@@ -187,40 +187,40 @@
   "weightsManifest": [{
     "paths": ["group1-shard1of1"],
     "weights": [{
-      "name": "dense_1/kernel",
+      "name": "dense_69/kernel",
       "shape": [32, 1],
       "dtype": "float32"
     }, {
-      "name": "dense_1/bias",
+      "name": "dense_69/bias",
       "shape": [1],
       "dtype": "float32"
     }, {
-      "name": "embedding_5/embeddings",
+      "name": "embedding_26/embeddings",
       "shape": [67, 200],
       "dtype": "float32"
     }, {
-      "name": "lstm_10/kernel",
-      "shape": [112, 128],
-      "dtype": "float32"
-    }, {
-      "name": "lstm_10/recurrent_kernel",
-      "shape": [32, 128],
-      "dtype": "float32"
-    }, {
-      "name": "lstm_10/bias",
-      "shape": [128],
-      "dtype": "float32"
-    }, {
-      "name": "lstm_9/kernel",
+      "name": "lstm_11/kernel",
       "shape": [200, 448],
       "dtype": "float32"
     }, {
-      "name": "lstm_9/recurrent_kernel",
+      "name": "lstm_11/recurrent_kernel",
       "shape": [112, 448],
       "dtype": "float32"
     }, {
-      "name": "lstm_9/bias",
+      "name": "lstm_11/bias",
       "shape": [448],
+      "dtype": "float32"
+    }, {
+      "name": "lstm_12/kernel",
+      "shape": [112, 128],
+      "dtype": "float32"
+    }, {
+      "name": "lstm_12/recurrent_kernel",
+      "shape": [32, 128],
+      "dtype": "float32"
+    }, {
+      "name": "lstm_12/bias",
+      "shape": [128],
       "dtype": "float32"
     }]
   }]
